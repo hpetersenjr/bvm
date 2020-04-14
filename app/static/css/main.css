@@ -18,11 +18,11 @@ body {
     padding-top: 0;
 }
 
-#aws{
+.fab{
 	font-size: 10em;
 	color: tomato;
 }
 
-.hover{
-	background-color: lightblue;
+.fab:hover {
+	color: blue;
 }
