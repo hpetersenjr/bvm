@@ -12,9 +12,10 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script src="https://kit.fontawesome.com/518378a3d3.js" crossorigin="anonymous"></script>
 
-		<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/main.css') }}?v=0.13">
+		<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/main.css') }}?v=0.39">
 		<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/login.css') }}?v=0.25">
 		<script src="{{ url_for('static',filename='js/login.js') }}?v=0.42"></script>
+		<script src="{{ url_for('static',filename='js/main.js') }}?v=0.4"></script>
 
 	</head>
 
@@ -41,13 +42,18 @@
 
 		</header>
 
-		<nav class="framework">
-			navbar
-			<ul>
+		<nav class="framework closed">
+
+			<div id="navIcons" class="navFunctionC">
+				<i id="navMenu" class="fas fa-bars"></i>
+			</div>
+
+			<ul id="navSelection" class="navSelectionClosed">
 				<li>Selection01</li>
 				<li>Selection02</li>
 				<li>Selection03</li>
 			</ul>
+
 		</nav>
 	
 	</div>
